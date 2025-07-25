@@ -179,9 +179,64 @@ i.fa-th-list {
 
 /* 👇👇👇  EDIT STYLES BENEATH  👇👇👇*/
 
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%
+}
+
+.logo-search {
+  display: flex;
+  gap: 30px;
+}
+
+.search-bar {
+  display: flex;
+}
+
+.options { 
+  display: flex;
+  gap: 15px;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.categories { 
+  display: flex;
+  justify-content: center;
+}
+
+.section-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-options { 
+  display: flex;
+  gap: 15px;
+}
+
+.view-option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
 /* GRID VIEW STYLES */
 
 .grid.products {
+  display: grid;
+  grid-template-columns: repeat( 3, 1fr);
+  grid-gap: 10px;
 }
 
 .grid .product {
